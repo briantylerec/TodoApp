@@ -65,7 +65,10 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
     implementation(libs.hilt.android)
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx)
     kapt(libs.hilt.android.compiler)
+    kapt(libs.androidx.room.compiler)
 }
 
 // Allow references to generated code
